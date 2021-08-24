@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4B76A626CE968E009C0619 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4B76A526CE968E009C0619 /* Functions.swift */; };
+		FD4B76A826CE9718009C0619 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4B76A726CE9718009C0619 /* ProgressView.swift */; };
+		FD4B76AA26CE99E0009C0619 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4B76A926CE99E0009C0619 /* PlayerView.swift */; };
 		FDB5464E26BA9BEE0003AB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5464D26BA9BEE0003AB74 /* AppDelegate.swift */; };
-		FDB5465026BA9BEE0003AB74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5464F26BA9BEE0003AB74 /* SceneDelegate.swift */; };
 		FDB5465226BA9BEE0003AB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5465126BA9BEE0003AB74 /* ViewController.swift */; };
-		FDB5465526BA9BEE0003AB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB5465326BA9BEE0003AB74 /* Main.storyboard */; };
 		FDB5465726BA9BEF0003AB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB5465626BA9BEF0003AB74 /* Assets.xcassets */; };
 		FDB5465A26BA9BEF0003AB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB5465826BA9BEF0003AB74 /* LaunchScreen.storyboard */; };
 		FDB5466526BA9BEF0003AB74 /* SpotifyPlayerAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5466426BA9BEF0003AB74 /* SpotifyPlayerAutoLayoutTests.swift */; };
@@ -35,11 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD4B76A526CE968E009C0619 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		FD4B76A726CE9718009C0619 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		FD4B76A926CE99E0009C0619 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		FDB5464A26BA9BEE0003AB74 /* SpotifyPlayerAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyPlayerAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB5464D26BA9BEE0003AB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDB5464F26BA9BEE0003AB74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FDB5465126BA9BEE0003AB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDB5465426BA9BEE0003AB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDB5465626BA9BEF0003AB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB5465926BA9BEF0003AB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB5465B26BA9BEF0003AB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				FDB5464D26BA9BEE0003AB74 /* AppDelegate.swift */,
-				FDB5464F26BA9BEE0003AB74 /* SceneDelegate.swift */,
 				FDB5465126BA9BEE0003AB74 /* ViewController.swift */,
-				FDB5465326BA9BEE0003AB74 /* Main.storyboard */,
+				FD4B76A526CE968E009C0619 /* Functions.swift */,
+				FD4B76A726CE9718009C0619 /* ProgressView.swift */,
+				FD4B76A926CE99E0009C0619 /* PlayerView.swift */,
 				FDB5465626BA9BEF0003AB74 /* Assets.xcassets */,
 				FDB5465826BA9BEF0003AB74 /* LaunchScreen.storyboard */,
 				FDB5465B26BA9BEF0003AB74 /* Info.plist */,
@@ -233,7 +236,6 @@
 			files = (
 				FDB5465A26BA9BEF0003AB74 /* LaunchScreen.storyboard in Resources */,
 				FDB5465726BA9BEF0003AB74 /* Assets.xcassets in Resources */,
-				FDB5465526BA9BEE0003AB74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +262,9 @@
 			files = (
 				FDB5465226BA9BEE0003AB74 /* ViewController.swift in Sources */,
 				FDB5464E26BA9BEE0003AB74 /* AppDelegate.swift in Sources */,
-				FDB5465026BA9BEE0003AB74 /* SceneDelegate.swift in Sources */,
+				FD4B76A826CE9718009C0619 /* ProgressView.swift in Sources */,
+				FD4B76AA26CE99E0009C0619 /* PlayerView.swift in Sources */,
+				FD4B76A626CE968E009C0619 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDB5465326BA9BEE0003AB74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB5465426BA9BEE0003AB74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDB5465826BA9BEF0003AB74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
